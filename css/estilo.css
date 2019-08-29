@@ -1,0 +1,53 @@
+#container{
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+#header{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+	text-align: center
+}
+
+#header h1{
+	border: 5px solid red;
+	margin: 1px 250px 5px 250px;
+	position: absolute;
+	}
+
+#header h1 span{
+	padding: :10px;
+}	
+
+#header image{
+	position: : relative;
+	width: 100%;
+}	
+
+#menu{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{
+	border: 1px solid blue;
+	display: inline;
+}
+
+#main{
+	border: 1px solid #000;
+	margin: 15px 10px 15px 10px;
+	padding: 5px;
+}
+
+#footer{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+}
