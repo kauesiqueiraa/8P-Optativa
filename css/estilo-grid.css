@@ -1,0 +1,31 @@
+body, html{
+	height: 100%;
+}
+#container{
+	border: 1px solid #000;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 20% 10% auto 20%;
+}
+
+#header{
+	border: 1px solid #000;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: 20% auto;
+}
+
+#main #menu-lateral{
+	border: 1px solid #000;
+}
+
+#main #content{
+	border: 1px solid #000;
+}
+
+#footer{
+	border: 1px solid #000;
+}
