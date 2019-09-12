@@ -5,7 +5,7 @@ body, html{
 	border: 1px solid #000;
 	height: 100%;
 	display: grid;
-	grid-template-rows: 20% 10% auto 20%;
+	grid-template-rows: 25% auto 15%;
 }
 
 #header{
@@ -28,4 +28,32 @@ body, html{
 
 #footer{
 	border: 1px solid #000;
+}
+
+#menu{
+	border: 1px solid #000;
+	display: none;
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu ul li{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+}
+
+#menu-lateral ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#menu-lateral ul li{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
 }
