@@ -6,6 +6,7 @@ body, html{
 	height: 100%;
 	display: grid;
 	grid-template-rows: 25% minmax(min-content,8%) auto 20%;
+	background: green;
 }
 
 #header{
@@ -24,7 +25,7 @@ body, html{
 }
 
 #menu ul{
-	display: block;
+	display: outline;
 }
 
 #main #menu-lateral{
